@@ -1,0 +1,7 @@
+﻿  block.cpp
+G:\c++\Tetris\block.cpp(55,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  grid.cpp
+  Generating Code...
+  Tetris.vcxproj -> G:\c++\Tetris\x64\Debug\Tetris.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
