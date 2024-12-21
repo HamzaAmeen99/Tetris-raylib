@@ -1,6 +1,7 @@
-﻿  block.cpp
-G:\c++\Tetris\block.cpp(55,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  grid.cpp
+﻿  Tetris.cpp
+G:\c++\Tetris\Tetris.cpp(48,46): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\c++\Tetris\Tetris.cpp(55,48): warning C4305: 'argument': truncation from 'double' to 'float'
+  game.cpp
   Generating Code...
   Tetris.vcxproj -> G:\c++\Tetris\x64\Debug\Tetris.exe
   'pwsh.exe' is not recognized as an internal or external command,
