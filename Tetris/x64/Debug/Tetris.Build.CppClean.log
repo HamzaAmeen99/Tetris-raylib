@@ -1,12 +1,12 @@
 g:\c++\tetris\tetris\x64\debug\vc143.pdb
 g:\c++\tetris\tetris\x64\debug\vc143.idb
-g:\c++\tetris\tetris\x64\debug\tetris.obj
 g:\c++\tetris\tetris\x64\debug\position.obj
 g:\c++\tetris\tetris\x64\debug\grid.obj
 g:\c++\tetris\tetris\x64\debug\game.obj
 g:\c++\tetris\tetris\x64\debug\colors.obj
 g:\c++\tetris\tetris\x64\debug\blocks.obj
 g:\c++\tetris\tetris\x64\debug\block.obj
+g:\c++\tetris\tetris\x64\debug\tetris.obj
 g:\c++\tetris\x64\debug\tetris.exe
 g:\c++\tetris\x64\debug\tetris.pdb
 g:\c++\tetris\x64\debug\raylib.dll
