@@ -24,7 +24,7 @@ int main()
 	InitWindow(500, 620, "Tetris");
 	SetTargetFPS(60);
 
-	Font font = LoadFontEx("Font/Noxis - Personal Use.ttf", 64, 0, 0);
+	Font font = LoadFontEx("Font/Pixelon.ttf", 64, 0, 0);
 
 	Game game = Game();
 
@@ -39,21 +39,21 @@ int main()
 		}
 
 		BeginDrawing();
-		ClearBackground(darkBlue);
+		ClearBackground(forestGreen);
 		DrawTextEx(font, "Score", {350, 15}, 38, 2, WHITE);
 		DrawTextEx(font, "Next", { 360, 200 }, 38, 2, WHITE);
 		if (game.gameOver)
 		{
 			DrawTextEx(font, "GAME OVER", { 320, 450 }, 25, 2, WHITE);
 		}
-		DrawRectangleRounded({ 320, 55, 170, 60 }, 0.3, 6, lightBlue);
+		DrawRectangleRounded({ 320, 55, 170, 60 }, 0.3, 6, mustard);
 
 		char scoreText[10];
 		sprintf_s(scoreText, "%d", game.score);
 		Vector2 textSize = MeasureTextEx(font, scoreText, 38, 2);
 
 		DrawTextEx(font, scoreText, { 320 + (178 - textSize.x) / 2,65 }, 38, 2, WHITE);
-		DrawRectangleRounded({ 320, 245, 170, 180 }, 0.3, 6, lightBlue);
+		DrawRectangleRounded({ 320, 245, 170, 180 }, 0.3, 6, mustard);
 		game.Draw();
 		EndDrawing();
 	}

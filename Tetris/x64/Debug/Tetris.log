@@ -1,8 +1,6 @@
 ﻿  Tetris.cpp
 G:\c++\Tetris\Tetris.cpp(49,46): warning C4305: 'argument': truncation from 'double' to 'float'
 G:\c++\Tetris\Tetris.cpp(56,48): warning C4305: 'argument': truncation from 'double' to 'float'
-  game.cpp
-  Generating Code...
   Tetris.vcxproj -> G:\c++\Tetris\x64\Debug\Tetris.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
